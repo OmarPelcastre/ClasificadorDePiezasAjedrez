@@ -82,6 +82,9 @@ cnn.fit(
     validation_data=validacion_generador,
     validation_steps=validation_steps)
 
+print(imagen_entrenamiento.class_indices)
+
+
 target_dir = './conocimiento/'
 if not os.path.exists(target_dir):
   os.mkdir(target_dir)
