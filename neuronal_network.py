@@ -31,8 +31,8 @@ filtrosConv2 = 64
 tamano_filtro1 = (3, 3)
 tamano_filtro2 = (2, 2)
 tamano_pool = (2, 2)
-clases = 2
-lr = 0.0002
+clases = 3
+lr = 0.0004
 
 
 

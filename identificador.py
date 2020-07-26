@@ -20,6 +20,8 @@ def predict(file):
     print("pred: Rey")
   elif answer == 1:
     print("pred: Caballo")
+  elif anwser == 2:
+    print("pred: Peón")
 
   return answer
 
