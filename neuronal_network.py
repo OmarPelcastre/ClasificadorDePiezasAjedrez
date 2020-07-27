@@ -93,4 +93,4 @@ cnn.save('./conocimiento/modelo.h5')
 cnn.save_weights('./conocimiento/pesos.h5')
 
 print("Indices: ")
-print(entrenamiento_generador.class_indices
+print(entrenamiento_generador.class_indices)
