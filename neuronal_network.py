@@ -50,6 +50,10 @@ entrenamiento_generador = entrenamiento_datagen.flow_from_directory(
     batch_size=batch_size,
     class_mode='categorical')
 
+print("Indices: ")
+print(entrenamiento_generador.class_indices)
+
+
 validacion_generador = test_datagen.flow_from_directory(
     data_validacion,
     target_size=(altura, longitud),
@@ -72,9 +76,6 @@ cnn.compile(loss='categorical_crossentropy',
             optimizer=optimizers.Adam(lr=lr),
             metrics=['accuracy'])
 
-
-
-
 cnn.fit(
     entrenamiento_generador,
     steps_per_epoch=pasos,
@@ -82,7 +83,7 @@ cnn.fit(
     validation_data=validacion_generador,
     validation_steps=validation_steps)
 
-print(imagen_entrenamiento.class_indices)
+
 
 
 target_dir = './conocimiento/'
@@ -90,3 +91,6 @@ if not os.path.exists(target_dir):
   os.mkdir(target_dir)
 cnn.save('./conocimiento/modelo.h5')
 cnn.save_weights('./conocimiento/pesos.h5')
+
+print("Indices: ")
+print(entrenamiento_generador.class_indices
