@@ -17,11 +17,11 @@ def predict(file):
   result = array[0]
   answer = np.argmax(result)
   if answer == 0:
-    print("pred: Rey")
-  elif answer == 1:
     print("pred: Caballo")
-  elif anwser == 2:
+  elif answer == 1:
     print("pred: Peón")
+  elif anwser == 2:
+    print("pred: Rey")
 
   return answer
 
