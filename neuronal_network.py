@@ -21,17 +21,17 @@ data_validacion = './data/Validation'
 """
 Parameters
 """
-epocas=8
+epocas=30
 longitud, altura = 150, 150
 batch_size = 32
-pasos = 50
-validation_steps = 200
+pasos = 200
+validation_steps = 300
 filtrosConv1 = 32
 filtrosConv2 = 64
 tamano_filtro1 = (3, 3)
 tamano_filtro2 = (2, 2)
 tamano_pool = (2, 2)
-clases = 3
+clases = 6
 lr = 0.0005
 
 
