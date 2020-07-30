@@ -80,7 +80,7 @@ cnn.compile(loss='categorical_crossentropy',
 
 cnn.fit(
     entrenamiento_generador,
-    steps_per_epoch=steps_per_epochs,
+    steps_per_epoch=steps_per_epoch,
     epochs=epocas,
     validation_data=validacion_generador,
     validation_steps=validation_steps)
