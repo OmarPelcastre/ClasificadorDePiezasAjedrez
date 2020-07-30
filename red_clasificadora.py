@@ -11,7 +11,7 @@ from keras.applications import VGG16
 
 
 def create_model():
-    model=applications.vgg16.VGG16()
+    model = VGG16()
     cnn=Sequential()
     for capa in model.layers:
         cnn.add(capa)
