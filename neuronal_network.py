@@ -19,7 +19,7 @@ data_entrenamiento = './data/Train'
 data_validacion = './data/Validation'
 
 
-batch_size = 16
+batch_size = 32
 
 filtrosConv1 = 32
 filtrosConv2 = 64
@@ -29,10 +29,10 @@ tamano_pool = (2, 2)
 clases = 6
 lr = 0.0004
 
-pasos = 100
-validation_steps = 100
+pasos = 500
+validation_steps = 700
 
-epocas=10
+epocas=15
 longitud, altura = 224, 224
 
 
