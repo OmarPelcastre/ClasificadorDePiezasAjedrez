@@ -18,21 +18,22 @@ K.clear_session()
 data_entrenamiento = './data/Train'
 data_validacion = './data/Validation'
 
-"""
-Parameters
-"""
-epocas=10
-longitud, altura = 224, 224
+
 batch_size = 16
-pasos = 20
-validation_steps = 20
+
 filtrosConv1 = 32
 filtrosConv2 = 64
 tamano_filtro1 = (3, 3)
 tamano_filtro2 = (2, 2)
 tamano_pool = (2, 2)
 clases = 6
-lr = 0.0005
+lr = 0.0004
+
+pasos = 100
+validation_steps = 100
+
+epocas=10
+longitud, altura = 224, 224
 
 
 

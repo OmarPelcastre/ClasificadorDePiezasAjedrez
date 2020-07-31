@@ -5,7 +5,7 @@ from tkinter import *
 from tkinter import filedialog
 from PIL import ImageTk, Image 
 
-longitud, altura = 150, 150
+longitud, altura = 224, 224
 modelo = './conocimiento/modelo.h5'
 pesos_modelo = './conocimiento/pesos.h5'
 cnn = load_model(modelo)
