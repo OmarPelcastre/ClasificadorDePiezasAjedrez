@@ -10,7 +10,7 @@ cycler==0.10.0
 h5py==2.10.0
 idna==2.6
 itypes==1.1.0
-Jinja2==2.10
+Jinja2==2.11.3
 Keras==2.4.3
 Keras-Preprocessing==1.1.2
 kiwisolver==1.2.0
