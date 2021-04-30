@@ -16,7 +16,7 @@ Keras-Preprocessing==1.1.2
 kiwisolver==1.2.0
 numpy==1.18.5
 rope==0.17.0
-rsa==4.6
+rsa==4.7
 scipy==1.5.0
 simplejson==3.16.0
 six==1.15.0
