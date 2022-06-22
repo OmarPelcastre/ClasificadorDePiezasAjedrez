@@ -14,7 +14,7 @@ Jinja2==2.10
 Keras==2.4.3
 Keras-Preprocessing==1.1.2
 kiwisolver==1.2.0
-numpy==1.18.5
+numpy==1.22.0
 rope==0.17.0
 rsa==4.6
 scipy==1.5.0
